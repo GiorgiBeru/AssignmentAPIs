@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="index.js"></script>
+    <title>Document</title>
+  </head>
+  <style>
+    .button {
+      display: inline-block;
+      padding: 10px;
+      font-size: 15px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #4caf50;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px #999;
+    }
+    .button:hover {
+      transform: translate(2px, 2px);
+    }
+    .input {
+      padding: 10px;
+      border-radius: 15px;
+    }
+    body {
+      background-color: rgb(59, 13, 59);
+      color: white;
+    }
+    li {
+      padding: 5px;
+    }
+    #refreshButton {
+      background-color: red;
+    }
+  </style>
+  <body>
+    <main>
+      <h1>Search for any movie</h1>
+      <form action>
+        <input id="input" type="text" class="input" />
+        <button id="btn" class="button">Search</button>
+        <button id="refreshButton" class="button">Refresh</button>
+      </form>
+      <h1>Search for 3 movies</h1>
+      <form>
+        <input type="text" class="input" id="input1" />
+        <input type="text" class="input" id="input2" />
+        <input type="text" class="input" id="input3" />
+        <button id="button2" class="button">Search</button>
+      </form>
+    </main>
+  </body>
+</html>
